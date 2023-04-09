@@ -1,0 +1,45 @@
+.Container {
+  padding: 20px;
+}
+
+.Title {
+  font-size: 18px;
+  color: #004c43;
+  font-weight: 700;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.TableContainer {
+  border: 1px solid rgb(231, 231, 231);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.Table {
+  border-collapse: collapse;
+}
+
+.Table > thead > tr > th,
+.Table > tbody > tr > td {
+  border: 2px solid rgb(173, 173, 173);
+}
+
+.Table > thead > tr > th {
+  font-size: 14px;
+  font-weight: 700;
+  color: #004c43;
+  padding: 10px;
+  width: 200px;
+  background-color: #f8f8f8;
+}
+
+.Table > tbody > tr > td {
+  font-size: 14px;
+  font-weight: 500;
+  color: #006c60;
+  padding: 10px;
+  width: 200px;
+}

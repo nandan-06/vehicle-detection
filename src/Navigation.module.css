@@ -1,0 +1,17 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Logo {
+  height: 35px;
+  margin-right: 30px;
+}
+
+.Title {
+  font-size: 18px;
+  color: #004c43;
+  font-weight: 700;
+}

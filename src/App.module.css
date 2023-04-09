@@ -1,0 +1,139 @@
+.VideoContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.DataInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Tag {
+  padding: 12px 15px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #373737;
+  background-color: #cdcdcd;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.ldsring {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.ldsring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  border: 2px solid rgb(62, 62, 62);
+  border-radius: 50%;
+  animation: ldsring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgb(62, 62, 62) transparent transparent transparent;
+}
+.ldsring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.ldsring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.ldsring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes ldsring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Loading {
+  display: flex;
+}
+
+.Loading > div {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #004c43;
+}
+
+.Title {
+  font-size: 50px;
+  color: #004c43;
+  font-weight: 700;
+}
+
+.Arrow {
+  height: 30px;
+}
+
+.SubTitle {
+  font-size: 20px;
+  color: #004c43;
+  font-weight: 500;
+}
+
+.Location {
+  display: flex;
+  flex-direction: column;
+}
+
+.LocationLabel {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 3px;
+}
+
+.LocationInput {
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 2px solid rgb(231, 231, 231);
+  border-radius: 2px;
+  width: 270px;
+}
+.LocationInput:hover,
+.LocationInput:focus {
+  border: 2px solid #018272;
+}
+
+.Button {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+  height: 100%;
+  padding: 0px 40px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: #018272;
+  cursor: pointer;
+}
+.Button:hover {
+  background-color: #00594f;
+  transition: all 0.1s ease-in-out;
+}
+
+.Video {
+  padding: 5px;
+  border: 2px solid rgb(231, 231, 231);
+}
